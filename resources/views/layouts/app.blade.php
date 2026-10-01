@@ -19,7 +19,7 @@
     </nav>
 
     <main class="flex-1 px-6 py-8">
-        @yield('content')
+        @yield('content') {{--empty placeholder slot in the layout waiting to be filled in--}}
     </main>
 
     <footer class="border-t border-[#3A332E] px-6 py-4 text-center text-sm text-[#8A8178]">
